@@ -1,0 +1,140 @@
+html {
+    background-image: url(/img/achtergrond_test.jpg);
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    background-image:url(/img/banner.png);
+    background-position:center;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+.titel {
+    color: lightseagreen;
+}
+
+label {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 1em;
+}
+
+.naamveld {
+    display: flex;
+    justify-content: center;
+}
+
+.naam {
+    display:flex;
+    justify-content: center;
+}
+
+.keuzemenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style-type: none;
+}
+
+.optie {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+
+#hond {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+#hond_blankstate {
+    display: flex;
+    width: 300px;
+}
+
+#hond_aaien {
+    display: none;
+    width: 300px;
+}
+
+#hond_badderen {
+    display: none;
+    width: 300px;
+}
+
+#hond_trainen {
+    display: none;
+    width: 300px;
+}
+
+#hond_uitlaten {
+    display: none;
+    width: 300px;
+}
+
+#hond_voeren {
+    display: none;
+    width: 300px;
+}
+
+h1 {
+    color:white;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#keuzemenu {
+    display: flex;
+}
+
+footer {
+    background-color: white;
+    margin: 1em;
+    bottom: 0;
+}
